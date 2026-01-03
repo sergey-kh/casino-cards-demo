@@ -5,5 +5,7 @@
 .idea/
 /vendor/
 /node_modules/
+/assets/dist/*
+!/assets/dist/*/
 composer.lock
 package-lock.json
