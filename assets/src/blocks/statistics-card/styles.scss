@@ -1,0 +1,123 @@
+.casino-cards-statistics-card {
+  max-width: 100%;
+  background: #fff;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+  
+  @media (min-width: 782px) {
+    max-width: 334px;
+  }
+
+  &__inner {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+  }
+
+  &__brand {
+    display: flex;
+    height: 161px;
+    background: #000000;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    overflow: hidden;
+    margin-bottom: 24px;
+  }
+
+  &__brand-logo {
+    display: block;
+    max-width: 88%;
+    max-height: 88%;
+    object-fit: contain;
+  }
+
+  &__brand-name {
+    color: #fff;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 1.1;
+    text-align: center;
+    letter-spacing: -0.02em;
+  }
+
+  &__stats {
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 16px;
+    row-gap: 12px;
+    
+    @media (min-width: 421px) {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+
+  &__stat {
+    display: flex;
+    align-items: flex-start;
+    gap: 5px;
+  }
+
+  &__icon {
+    flex: 0 0 15px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    position: relative;
+    line-height: 0;
+    margin-top: 1.5px;
+    
+    svg {
+      color: #000000;
+    }
+  }
+
+  &__label {
+    font-size: 12px;
+    line-height: 17px;
+    margin-bottom: 2px;
+  }
+
+  &__value {
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 600;
+  }
+
+  &__cta {
+    margin-top: 26px;
+  }
+
+  &__button {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background: #287E29;
+    color: #FFFFFF;
+    border-radius: 10px;
+    padding: 12px 14px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.2;
+    transition: transform 0.15s ease, opacity 0.15s;
+
+    &:hover {
+      transform: translateY(-2px);
+      opacity: 0.95;
+    }
+
+    &:active {
+      transform: translateY(0);
+    }
+
+    &:focus,
+    &:focus-visible {
+      outline: none;
+    }
+  }
+}

@@ -1,0 +1,52 @@
+root = true
+
+# Global settings for all files
+[*]
+indent_style = space
+indent_size = 2
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+# PHP specific settings
+[*.php]
+indent_style = space
+indent_size = 4
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+# HTML specific settings
+[*.html]
+indent_style = space
+indent_size = 2
+max_line_length = 120
+
+# JavaScript specific settings
+[*.js]
+indent_style = space
+indent_size = 2
+max_line_length = 120
+quote_type = single
+insert_final_newline = true
+
+# CSS specific settings
+[*.css]
+indent_style = space
+indent_size = 2
+max_line_length = 120
+insert_final_newline = true
+
+# JSON specific settings
+[*.json]
+indent_style = space
+indent_size = 2
+insert_final_newline = true
+
+# For SCSS files
+[*.scss]
+indent_style = space
+indent_size = 2
+insert_final_newline = true
