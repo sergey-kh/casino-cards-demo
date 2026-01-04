@@ -2,7 +2,7 @@
 
 Custom WordPress plugin that fetches casino data from an external service (Cartable) and renders predefined casino cards as Gutenberg blocks. Also includes a `casino` Custom Post Type (CPT) with a plugin fallback template that can be overridden in a theme/child theme.
 
-> **Note (Demo scope):** This plugin is a **concept / architecture demo** and wasn’t fully tested.
+> **Note (Demo scope):** This plugin is a **concept / architecture demo**, not included E2E, PHPUnit, infrastructure configuration and wasn’t fully tested.
 
 ---
 
